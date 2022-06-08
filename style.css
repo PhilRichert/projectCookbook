@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.untertext {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 10em 14em; 
+    grid-template-areas: 
+      "\.karte1 \.schriftzug1"
+      "\.karte2 \.schriftzug2"
+      "\.karte3 \.schriftzug3"; 
+  }
+  .\.karte1 { grid-area: \.karte1; }
+  .\.karte2 { grid-area: \.karte2; }
+  .\.karte3 { grid-area: \.karte3; }
+  .\.schriftzug1 { grid-area: \.schriftzug1; }
+  .\.schriftzug2 { grid-area: \.schriftzug2; }
+  .\.schriftzug3 { grid-area: \.schriftzug3; }
