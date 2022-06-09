@@ -1,9 +1,7 @@
 *{
     margin:0;
     padding:0;
-    
 }
-
 
 
 h1{
@@ -18,19 +16,41 @@ h1{
     font-size: 2rem;
 }
 
-.container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 10em 14em; 
-    grid-template-areas: 
-      "\.karte1 \.schriftzug1"
-      "\.karte2 \.schriftzug2"
-      "\.karte3 \.schriftzug3"; 
+html{
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  background-color:rgb(236, 220, 68) ;
+}
+
+body{
+  border: 20px double #23a52e;
+  background-color:rgb(221, 173, 132);
+  width: 80%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+  
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+ 
   }
-  .\.karte1 { grid-area: \.karte1; }
-  .\.karte2 { grid-area: \.karte2; }
-  .\.karte3 { grid-area: \.karte3; }
-  .\.schriftzug1 { grid-area: \.schriftzug1; }
-  .\.schriftzug2 { grid-area: \.schriftzug2; }
-  .\.schriftzug3 { grid-area: \.schriftzug3; }
+  .container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+   
+  }
+ 
