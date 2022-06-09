@@ -20,12 +20,17 @@ html{
   display: flex;
   justify-content: center;
   width: 100%; 
-  background-color:rgb(236, 220, 68) ;
+
+  background-color: rgb(241, 188, 142);
+  
+
 }
 
 body{
   border: 20px double #23a52e;
-  background-color:rgb(221, 173, 132);
+
+  background-color:rgb(236, 220, 68) ;
+
   width: 80%;
 }
 
