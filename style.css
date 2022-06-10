@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body  {
     background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%) !important;
     margin: 0 1rem !important;
@@ -6,6 +12,12 @@ body  {
 
 html {
     scroll-behavior: smooth;
+}
+
+h2{
+font-weight: 100 !important;
+letter-spacing: 30px;
+
 }
 
 img:hover {
@@ -26,14 +38,11 @@ img:not(:hover) {
 }
 
 .font-custom {
-    color: #ff4c15 !important;
+    color: #4e0000 !important;
     font-weight: 900;
     font-size: 1.5rem;
 }
 
-.container:first-child {
-    margin-top: 7rem !important;
-}
 
 .container{
     text-align: center;
