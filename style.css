@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body  {
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%) !important;
+    margin: 0 1rem !important;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+font-weight: 100 !important;
+letter-spacing: 30px;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: 300ms;
+}
+img:not(:hover) {
+    transition: 300ms;
+}
+
+.card  {
+    overflow: hidden;
+}
+
+
+.bg-custom {
+    background-color: #22283100 !important;
+}
+
+.font-custom {
+    color: #4e0000 !important;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+.container{
+    text-align: center;
+    margin-bottom: 3rem !important;
+}
+
+.carousel-inner img{
+    max-height: 400px;
+    object-fit:cover;
+}
+
+
+#highlights{
+    height: 100%;
+
+
+}
+
+#main-dishes{
+    height: 100%;
+
+}
+
+#appetizer{
+    height: 100%;
+
+}
+
+#dessert{
+    height: 100%;
+
+}
+
+#vegan{
+    height: 100%;
+
+}
+
